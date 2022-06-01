@@ -10,15 +10,16 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/dbs"/>
+        android:text="@string/dbs" />
 
     <TextView
         android:id="@+id/tvOCBC"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:baselineAligned="false"
         android:gravity="center"
-        android:text="@string/ocbc"/>
+        android:text="@string/ocbc" />
 
     <TextView
         android:id="@+id/tvUOB"
@@ -26,6 +27,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/uob"/>
+        android:text="@string/uob" />
 
 </LinearLayout>
